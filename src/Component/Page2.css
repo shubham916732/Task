@@ -1,0 +1,78 @@
+.menu-container {
+    background-image: url('C:\Users\priya\Desktop\New folder (2)\task\public\menu-bg.jpg');
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .menu-header {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-align: left;
+  }
+  
+  .menu-title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .menu-subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .nav-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .nav-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .menu-list {
+    margin-top: 40px;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b6766;
+    padding: 15px 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-item.active {
+    background-color: #1ac7c5;
+  }
+  
+  .menu-item:hover {
+    background-color: #1ac7c5;
+  }
+  
+  .menu-item-text {
+    font-size: 24px;
+  }
+  
+  .menu-item-icon {
+    font-size: 24px;
+  }
+  

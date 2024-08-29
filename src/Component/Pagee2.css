@@ -1,0 +1,18 @@
+/* .img-common{
+    
+} */
+.img-btn{
+    width: 80px;
+}
+.img-Panel {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.input-text{
+    width: 500px;
+}
+.bg-image{
+    background-image: url('C:\Users\priya\Desktop\New folder (2)\task\public\common-bg.jpg');
+    height: 650px;
+}
